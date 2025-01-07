@@ -1,0 +1,40 @@
+/* Style for the section with ID idSEg */
+#idSEg {
+    color: white; /* Set text color to white for visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add shadow for better readability */
+    text-align: center; /* Center align the text */
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold; /* Make the text bold for emphasis */
+    margin: 20px; /* Add spacing around the text */
+}
+
+/* Style for the box model */
+.box-model {
+    font-size: 30px; /* Set the font size */
+    margin: 10px; /* Add spacing around the box */
+    border: 5px solid blue; /* Add a blue border */
+    padding: 10px; /* Add padding inside the box */
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+    color: black; /* Set text color to black */
+}
+/* File: src/Components/Samplefunc/Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#home-title {
+    font-size: 50px;
+    color: #FF6347; /* Tomato */
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 18px;
+    max-width: 600px;
+    text-align: center;
+}

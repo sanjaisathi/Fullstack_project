@@ -1,0 +1,383 @@
+/* AuthStyles.css */
+
+/* Overall Container for Forms */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;  /* Optional background color */
+  }
+  
+  /* Auth Form Wrapper */
+  .auth-form {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .auth-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Input Fields */
+  .input-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Forgot Password and Footer Links */
+  .form-footer {
+    margin-top: 20px;
+  }
+  
+  .forgot-btn,
+  .login-btn {
+    font-size: 14px;
+    color: #007bff;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .forgot-btn:hover,
+  .login-btn:hover {
+    text-decoration: underline;
+  }
+  
+  .form-footer-links {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Button Styles */
+  button {
+    cursor: pointer;
+  }
+  
+  /* Ensure inputs are full-width */
+  input {
+    width: 100%;
+  }
+/* AuthStyles.css */
+
+/* Overall Container for Forms */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;  /* Optional background color */
+  }
+  
+  /* Auth Form Wrapper */
+  .auth-form {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .auth-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Input Fields */
+  .input-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Forgot Password and Footer Links */
+  .form-footer {
+    margin-top: 20px;
+  }
+  
+  .forgot-btn,
+  .login-btn {
+    font-size: 14px;
+    color: #007bff;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .forgot-btn:hover,
+  .login-btn:hover {
+    text-decoration: underline;
+  }
+  
+  .form-footer-links {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Ensure inputs are full-width */
+  input {
+    width: 100%;
+  }
+/* AuthStyles.css */
+
+/* Overall Container for Forms */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;  /* Optional background color */
+  }
+  
+  /* Auth Form Wrapper */
+  .auth-form {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .auth-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Input Fields */
+  .input-group {
+    margin-bottom: 20px; /* Space between each input */
+    display: block;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Forgot Password and Footer Links */
+  .form-footer {
+    margin-top: 20px;
+  }
+  
+  .forgot-btn,
+  .login-btn {
+    font-size: 14px;
+    color: #007bff;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .forgot-btn:hover,
+  .login-btn:hover {
+    text-decoration: underline;
+  }
+  
+  .form-footer-links {
+    text-align: center;
+    margin-top: 10px;
+  }
+/* AuthStyles.css */
+
+/* Overall Container for Forms */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;  /* Optional background color */
+  }
+  
+  /* Auth Form Wrapper */
+  .auth-form {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Flex Items for Each Field (Email, Password, etc.) */
+  .input-group {
+    margin-bottom: 20px; /* Space between each input */
+    display: flex;
+    flex-direction: column; /* Ensure labels and inputs stack vertically */
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Forgot Password and Footer Links */
+  .form-footer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .forgot-btn,
+  .login-btn {
+    font-size: 14px;
+    color: #007bff;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .forgot-btn:hover,
+  .login-btn:hover {
+    text-decoration: underline;
+  }
+  
+  .form-footer-links {
+    text-align: center;
+    margin-top: 10px;
+  }
+      

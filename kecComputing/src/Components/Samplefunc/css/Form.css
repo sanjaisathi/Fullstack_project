@@ -1,0 +1,57 @@
+/* Body styling */
+body {
+    background-image: url('./public/image2.jpg'); /* Ensure this path is correct */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Form container styling with semi-transparent background */
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    border: 1px solid rgba(255, 255, 255, 0.4); /* Slightly transparent border */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Input fields styling */
+form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.8); /* Slightly opaque input background */
+}
+
+/* Button styling */
+form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+form button:hover {
+    background-color: #45a049;
+}
